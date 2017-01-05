@@ -1,0 +1,37 @@
+{
+  "name": "solar",
+  "version": "1.0.0",
+  "description": "Get solar panel quotes",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blainegunn/solar.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "blaine gunn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blainegunn/solar/issues"
+  },
+  "homepage": "https://github.com/Blainegunn/solar#readme",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.26.0",
+    "node-sass": "^4.1.1",
+    "sass-loader": "^4.1.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
